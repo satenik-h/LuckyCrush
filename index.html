@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>LuckyCrush</title>
+    <meta name="description" content="The HTML5 Herald" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="assets/fonts/fonts.css" />
+  </head>
+  <body>
+    <section class="hero-section">
+      <div class="hero-img">
+        <div class="hero-logo">
+          <div class="hero-logo-container">
+            <a href="/">
+              <img src="./assets/img/hero-logo.svg" alt="LuckyCrush Logo" />
+            </a>
+          </div>
+        </div>
+        <div class="hero-heading">
+          <div class="hero-heading-header">
+            <div class="hero-heading-header-title">
+              <p class="hero-heading-header-title-top">
+                What happens on LC stays on LC
+              </p>
+              <p class="hero-heading-header-title-bottom">
+                Private live video chat with a random, opposite-sex partner
+              </p>
+            </div>
+          </div>
+          <div class="cta hero-cta">
+            <button class="cta-button" onclick="toggleModal()">
+              <p class="cta-button-text">Start Chatting</p>
+            </button>
+            <p class="cta-desc">Free access. No signup needed</p>
+          </div>
+        </div>
+        <div class="hero-promo">
+          <div class="hero-promo-desc">
+            <p class="hero-promo-desc-top">
+              Guys only match with girls.<br
+                class="hero-promo-desc-top-mobile"
+              />
+              Girls only match with guys.
+            </p>
+            <p class="hero-promo-desc-bottom">
+              Maximum 50% of men and 50% of women in the loop. Which guarantees
+              that you find a partner at any time
+            </p>
+          </div>
+        </div>
+        <img
+          class="hero-promo-arrow"
+          src="assets/img/ic_arrow-down-circle.svg"
+          alt="down arrow"
+        />
+      </div>
+      <div class="hero-promo-features">
+        <div class="hero-promo-feature-container">
+          <div class="hero-promo-features-feature">
+            <img src="assets/img/feature-1.svg" alt="first feautre" />
+            <p class="hero-promo-features-feature-text">
+              Guys only connect with girls, and girls only connect with guys
+            </p>
+          </div>
+        </div>
+        <div class="hero-promo-feature-container">
+          <div class="hero-promo-features-feature">
+            <img src="assets/img/feature-2.svg" alt="second feautre" />
+            <p class="hero-promo-features-feature-text">
+              At least 50% of girls online at any time thanks to a fun reward
+              system for girls
+            </p>
+          </div>
+        </div>
+        <div class="hero-promo-feature-container">
+          <div class="hero-promo-features-feature">
+            <img src="assets/img/feature-3.svg" alt="third feautre" />
+            <p class="hero-promo-features-feature-text">
+              Available on desktop, tablet, and mobile
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="video-section">
+      <div class="video-title">
+        <p class="video-title-top">1,000,000+ members from 100+ countries</p>
+        <p class="video-title-bottom">since we launched in May 2019</p>
+      </div>
+      <div class="video-player">
+        <iframe
+          width="648"
+          height="366"
+          src="https://www.youtube.com/embed/2mdqjVbK-ic"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
+    <section class="work-section">
+      <div class="section-title">
+        <img src="assets/img/ptr_stars.svg" alt="prtstars" />
+        <p class="section-title-text">How does it work?</p>
+      </div>
+      <div class="work-features">
+        <div class="work-feature-container">
+          <div class="work-feature">
+            <img src="assets/img/work_feature_1.svg" alt="workfeature1" />
+            <p class="work-feature-text">
+              LuckyCrush is a video chat site that randomly connects men with
+              women and women with men.
+            </p>
+          </div>
+        </div>
+        <div class="work-feature-container">
+          <div class="work-feature">
+            <img src="assets/img/work_feature_2.png" alt="workfeature1" />
+            <p class="work-feature-text">
+              The virtual date through live video chat can last a few seconds or
+              several hours but it instantly ends at the moment you or your
+              partner click "next".
+            </p>
+          </div>
+        </div>
+        <div class="work-feature-container">
+          <div class="work-feature">
+            <img src="assets/img/work_feature_3.svg" alt="workfeature1" />
+            <p class="work-feature-text">
+              After only one year, more than 1,000,000+ members from 200+
+              countries are already using LuckyCrush.
+            </p>
+          </div>
+        </div>
+        <div class="work-feature-container">
+          <div class="work-feature">
+            <img src="assets/img/work_feature_4.svg" alt="workfeature1" />
+            <p class="work-feature-text">
+              Thanks to a fun reward system for girls, about 50% of our members
+              are girls and 50% are guys, which guarantees that you find a
+              partner at any time!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="never-section">
+      <div class="never-container">
+        <p class="never-text">You’ve just never seen this before</p>
+        <div class="cta never-cta">
+          <button class="cta-button" onclick="toggleModal()">
+            <p class="cta-button-text">Start Chatting</p>
+          </button>
+          <p class="cta-desc">Free access. No signup needed</p>
+        </div>
+      </div>
+    </section>
+    <section class="discreet-section">
+      <div class="section-title discreet-title">
+        <img src="assets/img/ptr_stars.svg" alt="prtstars" />
+        <p class="section-title-text">It’s discreet and 100% anonymous</p>
+      </div>
+      <div class="discreet-features">
+        <div class="discreet-feature-container">
+          <div class="discreet-feature">
+            <img
+              src="assets/img/discreet_feature_1.svg"
+              alt="discreetfeature"
+            />
+            <p class="discreet-feature-title">Anonymous</p>
+            <p class="discreet-feature-desc">
+              Your username is the only information that your chat partner can
+              see
+            </p>
+          </div>
+        </div>
+        <div class="discreet-feature-container">
+          <div class="discreet-feature">
+            <img
+              src="assets/img/discreet_feature_2.svg"
+              alt="discreetfeature"
+            />
+            <p class="discreet-feature-title">Confidential</p>
+            <p class="discreet-feature-desc">
+              Video chat sessions are not recorded and conversations are deleted
+              as soon as the chat session ends
+            </p>
+          </div>
+        </div>
+        <div class="discreet-feature-container">
+          <div class="discreet-feature">
+            <img
+              src="assets/img/discreet_feature_3.svg"
+              alt="discreetfeature"
+            />
+            <p class="discreet-feature-title">Multi-device</p>
+            <p class="discreet-feature-desc">
+              You can open LuckyCrush and chat from your computer or any mobile
+              device
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="partner-section">
+      <div class="partner-container">
+        <p class="partner-text">Find a virtual partner right now</p>
+        <div class="cta partner-cta">
+          <button class="cta-button" onclick="toggleModal()">
+            <p class="cta-button-text">Start Chatting</p>
+          </button>
+          <p class="cta-desc">Free access. No signup needed</p>
+        </div>
+      </div>
+    </section>
+    <section class="talk-section">
+      <div class="section-title">
+        <img src="assets/img/ptr_stars.svg" alt="prtstars" />
+        <p class="section-title-text">They talk about us</p>
+      </div>
+      <div class="talk-logos">
+        <img src="assets/img/logo_1.png" alt="logo" />
+        <img src="assets/img/logo_2.png" alt="logo" />
+        <img src="assets/img/logo_3.png" alt="logo" />
+        <img src="assets/img/logo_4.png" alt="logo" />
+      </div>
+    </section>
+    <section class="what-section">
+      <div class="what-container">
+        <div class="section-title what-title">
+          <img src="assets/img/ptr_stars.svg" alt="prtstars" />
+          <p class="section-title-text">What is LuckyCrush?</p>
+        </div>
+        <div class="what-item">
+          <p class="what-item-title">How does our random video chat works?</p>
+          <p class="what-item-desc">
+            Anything can happen on LuckyCrush. But the key is consent. The
+            relationship is virtual, but your partner is real. Make sure you are
+            on the same page with your partner before you engage in a more
+            intimate conversation. Any report of abuse leads to banishment.
+            Here, it's the girls who are in control!
+          </p>
+        </div>
+        <div class="what-item">
+          <p class="what-item-title">A quick and easy online chat experience</p>
+          <p class="what-item-desc">
+            Anything can happen on LuckyCrush. But the key is consent. The
+            relationship is virtual, but your partner is real. Make sure you are
+            on the same page with your partner before you engage in a more
+            intimate conversation. Any report of abuse leads to banishment.
+            Here, it's the girls who are in control!
+          </p>
+        </div>
+        <div class="what-item">
+          <p class="what-item-title">Random 1-on-1 video chat</p>
+          <p class="what-item-desc">
+            Anything can happen on LuckyCrush. But the key is consent. The
+            relationship is virtual, but your partner is real. Make sure you are
+            on the same page with your partner before you engage in a more
+            intimate conversation. Any report of abuse leads to banishment.
+            Here, it's the girls who are in control!
+          </p>
+        </div>
+        <div class="what-item">
+          <p class="what-item-title">
+            Guys are only matched with girls. Girls are only matched with guys.
+          </p>
+          <p class="what-item-desc">
+            Anything can happen on LuckyCrush. But the key is consent. The
+            relationship is virtual, but your partner is real. Make sure you are
+            on the same page with your partner before you engage in a more
+            intimate conversation. Any report of abuse leads to banishment.
+            Here, it's the girls who are in control!
+          </p>
+        </div>
+        <div class="what-item">
+          <p class="what-item-title">Instant translation</p>
+          <p class="what-item-desc">
+            Anything can happen on LuckyCrush. But the key is consent. The
+            relationship is virtual, but your partner is real. Make sure you are
+            on the same page with your partner before you engage in a more
+            intimate conversation. Any report of abuse leads to banishment.
+            Here, it's the girls who are in control!
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <ul class="footer-links">
+        <li class="footer-link">
+          <a
+            href="https://s3-eu-west-1.amazonaws.com/buurn-ir/assets/cookies-policy.pdf"
+            target="_blank"
+            >Cookies Policy</a
+          >&nbsp|&nbsp
+        </li>
+        <li class="footer-link">
+          <a
+            href="https://s3-eu-west-1.amazonaws.com/buurn-ir/assets/legal.pdf"
+            target="_blank"
+            >Legal & Contact</a
+          >&nbsp|&nbsp
+        </li>
+        <li class="footer-link">
+          <a
+            href="https://s3-eu-west-1.amazonaws.com/buurn-ir/assets/privacy-policy.pdf"
+            target="_blank"
+            >Privacy Policy&nbsp</a
+          >|&nbsp
+        </li>
+        <li class="footer-link">
+          <a
+            href="https://s3-eu-west-1.amazonaws.com/buurn-ir/assets/terms-and-conditions.pdf"
+            target="_blank"
+            >Terms and Conditions</a
+          >&nbsp|&nbsp
+        </li>
+        <li class="footer-link">
+          <a href="mailto:hello@luckycrush.live">Email us</a>
+        </li>
+      </ul>
+      <p class="footer-copyright">Copyright © LuckyCrush 2020</p>
+    </footer>
+
+    <div id="modal" class="modal">
+      <div class="modal-back"></div>
+      <div class="modal-content">
+        <a href="/">
+          <img src="assets/img/hero-logo.svg" />
+        </a>
+        <div id="luckycrush_container">
+          <div id="luckycrush-iframe-loader">
+            <img
+              src="https://app.luckycrush.live/assets/main-icon.svg?version=1"
+            />
+          </div>
+          <iframe
+            src="https://app.luckycrush.live/module/index.html?param1=value&param2=value2"
+            id="luckycrush-iframe"
+            sandbox="allow-scripts allow-top-navigation allow-same-origin allow-forms allow-popups"
+            style="position: relative; overflow: hidden;"
+            allow="microphone; camera"
+            width="100%"
+            height="100%"
+            frameborder="0"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var modal = document.getElementById("modal");
+      var hero = document.querySelector(".hero-section");
+      var body = document.body;
+
+      function toggleModal() {
+        if (!modal.classList.contains("show-modal")) {
+          modal.setAttribute("style", "height:" + hero.offsetHeight + "px");
+          modal.classList.add("show-modal");
+        }
+        window.scrollTo(0, 0);
+        if (window.innerWidth <= 700) {
+          body.classList.add("stop-scroll");
+        }
+      }
+
+      function windowOnClick(event) {
+        if (event.target !== mainmodal) {
+          modal.classList.remove("show-modal");
+        }
+      }
+
+      function displayWindowSize() {
+        modal.setAttribute("style", "height:" + hero.offsetHeight + "px");
+        if (modal.classList.contains("show-modal")) {
+          if (window.innerWidth <= 700) body.classList.add("stop-scroll");
+          else body.classList.remove("stop-scroll");
+        }
+      }
+
+      window.addEventListener("resize", displayWindowSize);
+    </script>
+  </body>
+</html>
